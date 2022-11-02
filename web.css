@@ -1,0 +1,172 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212121;
+    margin: 0;
+    padding: 1em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Carter One", cursive;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+h1,
+p {
+    margin: 0 0 1rem 0;
+}
+
+.bg {
+    background-color: white;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    /*border:1px solid #CCC;*/
+    width: 133mm;
+    height: 157mm;
+    position: relative;
+    margin: 0 auto;
+}
+
+.character,
+.player,
+.race,
+.class,
+.health,
+.stat {
+    position: absolute;
+    /*background-color:#CCCCCC;*/
+    font-family: "Carter One", cursive;
+    text-align: center;
+}
+
+.character {
+    width: 55mm;
+    height: 10mm;
+    top: 8mm;
+    left: 8mm;
+    font-size: 20px;
+    line-height: 10mm;
+}
+
+.player {
+    width: 55mm;
+    height: 10mm;
+    top: 8mm;
+    left: 72mm;
+    font-size: 20px;
+    line-height: 10mm;
+}
+
+.race {
+    width: 42mm;
+    height: 10mm;
+    left: 8mm;
+    top: 28mm;
+    font-size: 20px;
+    line-height: 10mm;
+}
+
+.class {
+    width: 42mm;
+    height: 10mm;
+    left: 59mm;
+    top: 28mm;
+    font-size: 20px;
+    line-height: 10mm;
+}
+
+.health {
+    width: 17mm;
+    height: 10mm;
+    left: 110mm;
+    top: 28mm;
+    font-size: 32px;
+    line-height: 10mm;
+}
+
+.stat {
+    width: 17mm;
+    height: 12mm;
+    left: 38mm;
+    font-size: 32px;
+    line-height: 12mm;
+}
+
+.stat-str {
+    top: 50mm;
+}
+
+.stat-dex {
+    top: 67mm;
+}
+
+.stat-con {
+    top: 85mm;
+}
+
+.stat-int {
+    top: 103mm;
+}
+
+.stat-wis {
+    top: 121mm;
+}
+
+.stat-cha {
+    top: 140mm;
+}
+
+.pane {
+    position: absolute;
+    left: 58mm;
+    width: 75mm;
+    height: 17mm;
+    background-color: #cccccc;
+}
+
+.pane-str {
+    top: 47mm;
+    background-color: #8f0000;
+}
+
+.pane-dex {
+    top: 65mm;
+    background-color: #212121;
+}
+
+.pane-con {
+    top: 83mm;
+    background-color: #007210;
+}
+
+.pane-int {
+    top: 101mm;
+    background-color: #29298c;
+}
+
+.pane-wis {
+    top: 119mm;
+    background-color: white;
+}
+
+.pane-cha {
+    top: 137mm;
+    background-color: #7c007c;
+}
+
+footer {
+    font-size: 16px;
+    color: #999;
+    font-style: italic;
+    width: 50%;
+    margin: 2rem auto 0 auto;
+}
+footer a {
+    color:#999;
+}
+footer a:hover {
+    text-decoration: none;
+}
